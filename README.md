@@ -28,7 +28,7 @@ npm run dev        # http://localhost:3000
 3. In the Sanity project, go to **API → CORS origins** and add these, ticking **Allow credentials** on each:
    - `http://localhost:3000`
    - `https://<your-site>.vercel.app` (after deploying), plus your custom domain if you have one
-4. Open http://localhost:3000/studio, log in, and add, edit, reorder (with the `order` field) or delete
+4. Open http://localhost:3000/studio, log in, and add, edit, reorder (drag the handles in the **Projects** list) or delete
    projects. Each project takes a title, description, several screenshots (the first is the cover;
    each can be cropped and given a focus point), stack tags and a live URL.
 
